@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <link rel="stylesheet" href="3dweb.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="page1">
+      <div id="image">
+        <div id="nav">
+          <div id="left">
+            <h2>*phenomenon</h2>
+            <h4><i class="ri-gallery-view"></i> project</h4>
+          </div>
+          <div id="right">
+            <h4>contract</h4>
+            <h4 id="menu"><i class="ri-menu-line"></i></h4>
+          </div>
+        </div>
+        <div id="main_text">
+          <h1>Pal</h1>
+        </div>
+        <div id="model_box">
+          <model-viewer id="model-viewer" src="./fonts/aquire/scooter_s3_new2.glb" alt="Coca Cola Can"
+            shadow-intensity="3" shadow-softness="0.1" environment-image="neutral" camera-orbit="-45deg 75deg auto"
+            auto-rotate-delay="4000" style="width: 100%; height: 90%;">
+
+          </model-viewer>
+
+        </div>
+        <div id="right_para">
+          <h3>A Smarter Last Mile</h3>
+          <div id="small_p">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur odio unde, nihil recusandae deleniti
+              soluta ipsum dicta distinctio. Placeat, eaque. </p><br>
+            <p style="color: rgb(215, 218, 218);">Lorem ipsum dolor sit amet</p>
+            <p style="color:rgb(202, 198, 198)">consectetur adipisicing elit. Repudiandae similique est aliquid
+              explicabo?
+            </p>
+          </div>
+
+        </div>
+        <div id="small_img">
+          <p>we belive the future in automation and sustainable</p>
+          <div id="electric">
+            <img src="./fonts/aquire/Super73 ZX eBike.jpg" alt="">
+          </div>
+        </div>
+        <div id="circle">
+          <div id="cir" class="cir1" style="color: black;"></div>
+          <div id="cir" class="cir2" style="color: rgb(124, 245, 209);"></div>
+          <div id="cir" class="cir3" style="color: rgb(147, 115, 236);"></div>
+          <div id="cir" class="cir4" style="color: rgb(253, 253, 253);"></div>
+
+        </div>
+        <div id="button">
+                <img src="https://i.pinimg.com/236x/8c/50/89/8c50893f510ae4bf4a0094d71d8fa674.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/b8/d6/9b/b8d69bfad379fbc0c7163b08e2928f67.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/8e/72/f7/8e72f7331b652b842b0c271ab144d332.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/49/0b/38/490b38be2860a2005f41bb3bfc6ba338.jpg" alt="">
+        </div>
+        <div id="right-corner">
+          <i class="ri-arrow-right-wide-fill"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+            integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"
+            integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="3Dweb.js"></script>
+  </body>
+
+</html>
